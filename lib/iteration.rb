@@ -7,7 +7,9 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-
+expect(find_greater_pair(array_2)).to eq([-1, 30, 0, 14, 19])
+    end
+  end
 end
 
 def total_even_pairs(src)
