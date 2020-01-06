@@ -13,5 +13,7 @@ expect(find_greater_pair(array_2)).to eq([-1, 30, 0, 14, 19])
 end
 
 def total_even_pairs(src)
-
+ expect(total_even_pairs(array_3)).to eq(344812)
+    end
+  end
 end
